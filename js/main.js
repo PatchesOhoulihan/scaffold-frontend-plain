@@ -15,8 +15,6 @@
     // Main Loop
     //-----------------------------------------------------------------------------
     
-	console.log('Here comes the main loop');
-    1 + 1;
-    2 + 3;
+	console.log('Hello World');
 
 })();
