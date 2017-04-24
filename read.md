@@ -1,80 +1,60 @@
-# Project Title
+# Webdevelopment Scaffold
 
-One Paragraph of project description goes here
+Setup I use for my pure Frontend Projects
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The Scaffold use the following Technologies:
+- Node
+- Gulp
+- Less
+- Bower
+
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+None
 
-```
-Give examples
-```
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+Use: node install
 
-Say what the step will be
 
-```
-Give the example
-```
+## Running the Scaffold
 
-And repeat
+### Run Scaffold in Development Mode
 
-```
-until finished
-```
+Simply use the command gulp on the commandline to invoke the development mode.
+Features: Automatically reloads the Browser after changes in the less, html or js Files.
 
-End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+### Build a Production Build
 
-Explain how to run the automated tests for this system
+Simply use the command gulp build on the commandline to create a build in the dist Folder.
+Features: minify html, css, js and pics and run babel on the *.js files
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* [Less](http://lesscss.org/) - CSS Preprocessor
+* [NPM](https://www.npmjs.com/) - Dependency Management
+* [Babel](https://babeljs.io/) - JS Transpiler
+* [Eslint](https://github.com/adametry/gulp-eslint) - gulp esLint plugin
+* [Image-Minify](https://github.com/sindresorhus/gulp-imagemin) - Image Minimizer
+* [Clean-CSS](https://github.com/scniro/gulp-clean-css) - CSS Minimizer
+* [JS Uglify](https://github.com/terinjokes/gulp-uglify) - JS Uglifier
+* [Browser-Sync](https://www.browsersync.io/) - Browser Sync.
+* [HMTL-Hint](https://github.com/bezoerb/gulp-htmlhint) HTML Validator
+* [HMTL-Minify](https://github.com/jonschlinkert) HTML Minimizer.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Schmalte **
 
 ## License
 
@@ -82,7 +62,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
+* Huge thanks to all the Coffeine
 
